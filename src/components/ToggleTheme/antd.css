@@ -1,0 +1,19 @@
+
+.ant-switch-handle::before {
+    background-color: black;
+
+}
+.ant-switch {
+    background-color: white;
+    border: black 1px solid ;
+    height: 24px;
+}
+
+.ant-switch-checked {
+    background-color: white;
+    border: white 1px solid;
+    display: flex;
+    justify-items: center;
+
+}
+
