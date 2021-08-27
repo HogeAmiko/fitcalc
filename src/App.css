@@ -1,27 +1,20 @@
 .App {
   margin: 0;
   padding: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .maintitle {
   font-size: 50px;
 }
-.title {
-  font-size: 32px;
-}
 
-.text {
- font-size: 16px;
-}
 
 .container {
   display: grid;
   grid-template-columns: [options] 1fr [content] 2fr;
   width: 100%;
-
 }
-
-
 
 .options {
   grid-column: options;
@@ -36,7 +29,7 @@
   height: 818px;
   border-radius: 30px;
   margin-top: 50px;
-  background-image: url("./img/White Glassy card.svg");
+  background-image: url("img/whiteGlassyCard.svg");
 
 }
 
@@ -85,29 +78,7 @@
 
 }
 
-.blocktextone {
 
-  width: 395px;
-  height: 170px;
-  font-size: 36px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  padding: 50px;
-  background-image: url("./img/White Glass.svg");
-}
-
-.blocktexttwo {
-  width: 395px;
-  height: 409px;
-  margin-top: 20px;
-padding: 20px;
-
-  background-image: url("./img/White Glass.svg");
-
-}
 .blocktext {
   font-size: 13px;
 }
@@ -117,37 +88,15 @@ padding: 20px;
   border: black 1px solid;
   border-radius: 10px;
 }
-.content2 {
-  grid-column: content;
-  width: 856px;
-  height: 818px;
-
-  border-radius: 30px;
-  margin-top: 50px;
-  transition: 1s;
-
-}
-
-.slide {
-  position: relative;
-width: 900px;
-  margin-top: -829px;
-  transition: 1s;
-}
 
 .slidercnt {
   display: grid;
   grid-template-columns: [sideone] 1fr [sidetwo] 1fr;
 }
 
-.sideone {
-  grid-column: sideone;
-}
 
-.sidetwo {
-  grid-column: sidetwo;
-  margin-left: 20px;
-}
+
+
 
 .textcontent {
   padding: 50px;
@@ -173,63 +122,14 @@ width: 900px;
   margin-left: 40px;
 }
 
-.btn1 {
-  transition: 1s;
-  cursor: pointer;
-  margin-left: 70px;
-  margin-top: 130px;
-  width: 295px;
-  height: 79px;
-  left: 70px;
-  top: 307px;
-  border: black 1px solid;
-  filter: blur(1px);
-  background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.3) 28.69%, rgba(255, 255, 255, 0.24) 100%);
-  /* glass blur */
 
-  backdrop-filter: blur(140px);
-  /* Note: backdrop-filter has minimal browser support */
 
-  border-radius: 13px;
-}
 
-.btn2 {
-  transition: 1s;
-  cursor: pointer;
-  margin-top: 20px;
-  margin-left: 70px;
-  width: 295px;
-  height: 79px;
-  left: 70px;
-  top: 507px;
-  filter: blur(1px);
-  border: black 1px solid;
-  background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.3) 28.69%, rgba(255, 255, 255, 0.24) 100%);
-  /* glass blur */
 
-  backdrop-filter: blur(140px);
-  /* Note: backdrop-filter has minimal browser support */
 
-  border-radius: 13px;
-}
-
-.active1 {
-
-  width: 345px;
-  height: 91px;
-  transition: 1s;
-  filter: blur(0px);
-}
-
-.active2 {
-
-  width: 345px;
-  height: 91px;
-  transition: 1s;
-  filter: blur(0px);
-}
 
 .finderblock {
 padding: 50px;
   background-image: url("./img/White Glass.svg");
 }
+

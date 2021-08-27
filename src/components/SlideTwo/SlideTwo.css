@@ -1,0 +1,63 @@
+
+
+.content2 {
+    display: flex;
+    width: 856px;
+    height: 818px;
+    border-radius: 30px;
+    margin-top: 850px;
+    transition: 1s;
+
+}
+
+.sideone {
+    grid-column: sideone;
+    width: 400px;
+}
+
+.sidetwo {
+    grid-column: sidetwo;
+    margin-left: 20px;
+}
+
+.one {
+    margin-top: 50px;
+    transition: 1s;
+}
+
+
+.two {
+
+}
+
+.slide {
+    margin-top: 50px;
+    transition: .5s;
+}
+
+.hide {
+    display: none;
+    margin-top: 850px;
+}
+
+.blocktextone {
+    width: 395px;
+    height: 170px;
+    font-size: 36px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+    background-image: url('../../img/whiteGlassyCard.svg');
+}
+
+.blocktexttwo {
+    width: 395px;
+    height: 409px;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url('../../img/whiteGlassyCard.svg');
+
+}

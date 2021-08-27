@@ -1,0 +1,105 @@
+
+
+.activate {
+
+}
+
+.btn1 {
+    transition: 1s;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 130px;
+    width: 295px;
+    height: 79px;
+    border: none;
+    filter: blur(1px);
+    background-image: url('../.././../src/img/White Glass.svg');
+    /* glass blur */
+    backdrop-filter: blur(140px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 13px;
+    background-size: contain;
+}
+
+.btn2 {
+
+    transition: 1s;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 295px;
+    height: 79px;
+
+    filter: blur(1px);
+    background-image: url('../.././../src/img/White Glass.svg');
+
+    /* glass blur */
+
+    backdrop-filter: blur(140px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 13px;
+    border: none;
+    background-size: contain;
+}
+
+
+
+.btn_img {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #91C6A0;
+    border-radius: 50%;
+}
+
+.btn_container {
+    display: flex;
+    margin-left: 15px;
+}
+.btn_text {
+    margin-left: 15px;
+}
+
+.btn_title {
+    font-size: 15px;
+    font-weight: 600;
+    transition: 1s;
+
+}
+
+.btn_word {
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 1s;
+}
+
+.fsbt {
+    font-size: 19px;
+    transition: 1s;
+    font-weight: 600;
+}
+
+.fontsizebw {
+    font-size: 15px;
+    transition: 1s;
+
+}
+
+.activate {
+    width: 345px;
+    height: 91px;
+    transition: 1s;
+    filter: blur(0px);
+}
+.deactivate {
+    width: 295px;
+    height: 79px;
+    transition: 1s;
+    filter: blur(1px);
+
+}
+

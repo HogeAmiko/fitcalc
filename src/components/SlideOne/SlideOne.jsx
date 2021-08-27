@@ -1,15 +1,14 @@
 import React from 'react';
-import {Element} from "react-scroll";
 import  './SlideOne.css';
+import classnames from "classnames";
 
-import useTheme from "../../hook/useTheme";
+const SlideOne = (props) => {
 
-const SlideOne = () => {
-    const {theme, toggleTheme} = useTheme();
     return (
-        <div className={`content ${theme}`}>
-                    <div className={`textcontent`}>
-                    <div className={` maintitle`}>Будь честен сам с собой</div>
+        <div className={classnames(`content ${props.theme}`,
+            props.state.slide.content === 2 ? "hide" : 'one' )}>
+                    <div className={`textcontent `}>
+                    <div className={`maintitle`}>Будь честен сам с собой</div>
                     <h1 className={``}>Шаг 1. Выбери цель</h1>
                     <h4 className={``}>Начать нужно с постановки цели и это проще, чем кажется.
                         Все “хотелки” можно свести к двум желаниям:
